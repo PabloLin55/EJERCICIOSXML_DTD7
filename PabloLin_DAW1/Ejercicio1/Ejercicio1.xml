@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  
+Nombre: Pablo Lin
+Curso: 1DAW 
+Fecha: 1/04/2025 
+Ejercicio: XML_DTD1
+ -->
+<!DOCTYPE libro [
+<!ELEMENT libro EMPTY>
+<!ATTLIST libro autor NMTOKENS #REQUIRED>
+]>
+
+<libro autor="Mario Vargas Llosa" />
